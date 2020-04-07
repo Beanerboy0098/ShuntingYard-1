@@ -37,6 +37,7 @@ string Stack::pop()
         string payload2Return = temp->getPayload();
         delete temp;
         return payload2Return;
+        this->count--;
     }
     return 0;
 }

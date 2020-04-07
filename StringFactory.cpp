@@ -1,5 +1,6 @@
 #include "StringFactory.hpp"
 
+
 bool StringFactory::isInString(string searchString, char charToFind)
 {
     for(int i = 0; i < searchString.length(); i++)
@@ -14,8 +15,7 @@ bool StringFactory::isInString(string searchString, char charToFind)
 
 Queue* StringFactory::split(string s, string delims)
 {
-    //string s = "123+42-8*2";
-    //string ops = "+-*/";
+    
     Queue* answerQ = new Queue();
     string temp = "";
     for(int i = 0; i < s.length(); i++)

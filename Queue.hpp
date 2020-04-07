@@ -1,7 +1,10 @@
 #ifndef Queue_hpp
 #define Queue_hpp
 #include "Node.hpp"
+using namespace std;
 class Queue
+
+
 {
     private:
         Node* head;

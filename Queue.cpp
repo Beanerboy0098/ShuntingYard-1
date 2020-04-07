@@ -1,4 +1,6 @@
 #include "Queue.hpp"
+#include <iostream>
+using namespace std;
 
 Queue::Queue()
 {
